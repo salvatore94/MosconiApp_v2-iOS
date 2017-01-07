@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D8C32F41E21053400F37414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8C32F31E21053400F37414 /* AppDelegate.swift */; };
+		9D8C32F91E21053400F37414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C32F71E21053400F37414 /* Main.storyboard */; };
+		9D8C32FB1E21053400F37414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C32FA1E21053400F37414 /* Assets.xcassets */; };
+		9D8C32FE1E21053400F37414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C32FC1E21053400F37414 /* LaunchScreen.storyboard */; };
+		9D8C33091E21053400F37414 /* MosconiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8C33081E21053400F37414 /* MosconiTests.swift */; };
+		9D8C33141E21053400F37414 /* MosconiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8C33131E21053400F37414 /* MosconiUITests.swift */; };
+		9D8C332A1E21128100F37414 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8C33291E21128100F37414 /* CustomNavBar.swift */; };
+		9D8C332C1E211E4300F37414 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8C332B1E211E4300F37414 /* CustomTableViewCell.swift */; };
+		9D8C33671E214AEB00F37414 /* ah_non_lo_so_io.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C332D1E214AEB00F37414 /* ah_non_lo_so_io.aiff */; };
+		9D8C33681E214AEB00F37414 /* avanti_e_n_drio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C332E1E214AEB00F37414 /* avanti_e_n_drio.aiff */; };
+		9D8C33691E214AEB00F37414 /* avv_bisagno.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C332F1E214AEB00F37414 /* avv_bisagno.aiff */; };
+		9D8C336A1E214AEB00F37414 /* carte_co_la_cola.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33301E214AEB00F37414 /* carte_co_la_cola.aiff */; };
+		9D8C336B1E214AEB00F37414 /* chi_e_quel_mona.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33311E214AEB00F37414 /* chi_e_quel_mona.aiff */; };
+		9D8C336C1E214AEB00F37414 /* chi_fa_quel_rumore_li.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33321E214AEB00F37414 /* chi_fa_quel_rumore_li.aiff */; };
+		9D8C336D1E214AEB00F37414 /* chiudi_quella_porta.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33331E214AEB00F37414 /* chiudi_quella_porta.aiff */; };
+		9D8C336E1E214AEB00F37414 /* come_se_ciama_elo_li.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33341E214AEB00F37414 /* come_se_ciama_elo_li.aiff */; };
+		9D8C336F1E214AEB00F37414 /* cos_e_caduto.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33351E214AEB00F37414 /* cos_e_caduto.aiff */; };
+		9D8C33701E214AEB00F37414 /* cosa_ghe_qua_sotto.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33361E214AEB00F37414 /* cosa_ghe_qua_sotto.aiff */; };
+		9D8C33711E214AEB00F37414 /* d_p.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33371E214AEB00F37414 /* d_p.aiff */; };
+		9D8C33721E214AEB00F37414 /* dai_va_la.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33381E214AEB00F37414 /* dai_va_la.aiff */; };
+		9D8C33731E214AEB00F37414 /* dio_bono_de_dio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33391E214AEB00F37414 /* dio_bono_de_dio.aiff */; };
+		9D8C33741E214AEB00F37414 /* dio_bubu.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C333A1E214AEB00F37414 /* dio_bubu.aiff */; };
+		9D8C33751E214AEB00F37414 /* dio_camaja_de_dio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C333B1E214AEB00F37414 /* dio_camaja_de_dio.aiff */; };
+		9D8C33761E214AEB00F37414 /* dio_cazzo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C333C1E214AEB00F37414 /* dio_cazzo.aiff */; };
+		9D8C33771E214AEB00F37414 /* dio_pa_pa_pa_pa.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C333D1E214AEB00F37414 /* dio_pa_pa_pa_pa.aiff */; };
+		9D8C33781E214AEB00F37414 /* dio_po_dio.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C333E1E214AEB00F37414 /* dio_po_dio.aiff */; };
+		9D8C33791E214AEB00F37414 /* dio_porco__dio_cane.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C333F1E214AEB00F37414 /* dio_porco__dio_cane.aiff */; };
+		9D8C337A1E214AEB00F37414 /* dio_ss.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33401E214AEB00F37414 /* dio_ss.aiff */; };
+		9D8C337B1E214AEB00F37414 /* e_con_questo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33411E214AEB00F37414 /* e_con_questo.aiff */; };
+		9D8C337C1E214AEB00F37414 /* gabriele_sborina.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33421E214AEB00F37414 /* gabriele_sborina.aiff */; };
+		9D8C337D1E214AEB00F37414 /* germano_e_il_telefono.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33431E214AEB00F37414 /* germano_e_il_telefono.aiff */; };
+		9D8C337E1E214AEB00F37414 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33441E214AEB00F37414 /* Icon-App-29x29@2x.png */; };
+		9D8C337F1E214AEB00F37414 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33451E214AEB00F37414 /* Icon-App-29x29@3x.png */; };
+		9D8C33801E214AEB00F37414 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33461E214AEB00F37414 /* Icon-App-40x40@2x.png */; };
+		9D8C33811E214AEB00F37414 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33471E214AEB00F37414 /* Icon-App-60x60@2x.png */; };
+		9D8C33821E214AEB00F37414 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33481E214AEB00F37414 /* Icon-App-60x60@3x.png */; };
+		9D8C33831E214AEB00F37414 /* il_punteggio_dio_cane.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33491E214AEB00F37414 /* il_punteggio_dio_cane.aiff */; };
+		9D8C33841E214AEB00F37414 /* in_primo_piano.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C334A1E214AEB00F37414 /* in_primo_piano.aiff */; };
+		9D8C33851E214AEB00F37414 /* la_societa.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C334B1E214AEB00F37414 /* la_societa.aiff */; };
+		9D8C33861E214AEB00F37414 /* ma_che_ooooh.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C334C1E214AEB00F37414 /* ma_che_ooooh.aiff */; };
+		9D8C33871E214AEB00F37414 /* ma_e_possibile_che_sia_cosi_degli_imbecilli.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C334D1E214AEB00F37414 /* ma_e_possibile_che_sia_cosi_degli_imbecilli.aiff */; };
+		9D8C33881E214AEB00F37414 /* madonna_puttinaaaa.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C334E1E214AEB00F37414 /* madonna_puttinaaaa.aiff */; };
+		9D8C33891E214AEB00F37414 /* madonna.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C334F1E214AEB00F37414 /* madonna.aiff */; };
+		9D8C338A1E214AEB00F37414 /* no_nessuno.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33501E214AEB00F37414 /* no_nessuno.aiff */; };
+		9D8C338B1E214AEB00F37414 /* no_no_vai_in_mona.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33511E214AEB00F37414 /* no_no_vai_in_mona.aiff */; };
+		9D8C338C1E214AEB00F37414 /* non_e_possibile.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33521E214AEB00F37414 /* non_e_possibile.aiff */; };
+		9D8C338D1E214AEB00F37414 /* non_si_puo_scrivere_ste_notizie_in_maiuscolo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33531E214AEB00F37414 /* non_si_puo_scrivere_ste_notizie_in_maiuscolo.aiff */; };
+		9D8C338E1E214AEB00F37414 /* orco_dio_in_serie.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33541E214AEB00F37414 /* orco_dio_in_serie.aiff */; };
+		9D8C338F1E214AEB00F37414 /* passar_davanti.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33551E214AEB00F37414 /* passar_davanti.aiff */; };
+		9D8C33901E214AEB00F37414 /* pilota_romano_romano_andrea_de_cesaris.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33561E214AEB00F37414 /* pilota_romano_romano_andrea_de_cesaris.aiff */; };
+		9D8C33911E214AEB00F37414 /* porca_madonna.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33571E214AEB00F37414 /* porca_madonna.aiff */; };
+		9D8C33921E214AEB00F37414 /* porco_dio_1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33581E214AEB00F37414 /* porco_dio_1.aiff */; };
+		9D8C33931E214AEB00F37414 /* porco_dio_2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33591E214AEB00F37414 /* porco_dio_2.aiff */; };
+		9D8C33941E214AEB00F37414 /* portanna_la_madonna.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C335A1E214AEB00F37414 /* portanna_la_madonna.aiff */; };
+		9D8C33951E214AEB00F37414 /* se_non_bestemmio_guarda.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C335B1E214AEB00F37414 /* se_non_bestemmio_guarda.aiff */; };
+		9D8C33961E214AEB00F37414 /* se_trovo_quello_che_mi_fa_innervosire.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C335C1E214AEB00F37414 /* se_trovo_quello_che_mi_fa_innervosire.aiff */; };
+		9D8C33971E214AEB00F37414 /* se_venite_avanti_vi_do_un_pugno.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C335D1E214AEB00F37414 /* se_venite_avanti_vi_do_un_pugno.aiff */; };
+		9D8C33981E214AEB00F37414 /* serie_esplosiva.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C335E1E214AEB00F37414 /* serie_esplosiva.aiff */; };
+		9D8C33991E214AEB00F37414 /* serrare_la_porta.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C335F1E214AEB00F37414 /* serrare_la_porta.aiff */; };
+		9D8C339A1E214AEB00F37414 /* squadre.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33601E214AEB00F37414 /* squadre.aiff */; };
+		9D8C339B1E214AEB00F37414 /* stronzi.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33611E214AEB00F37414 /* stronzi.aiff */; };
+		9D8C339C1E214AEB00F37414 /* tutto_da_capo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33621E214AEB00F37414 /* tutto_da_capo.aiff */; };
+		9D8C339D1E214AEB00F37414 /* vaffanculo_ti_e_tutti_quanti.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33631E214AEB00F37414 /* vaffanculo_ti_e_tutti_quanti.aiff */; };
+		9D8C339E1E214AEB00F37414 /* vaffanculo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33641E214AEB00F37414 /* vaffanculo.aiff */; };
+		9D8C339F1E214AEB00F37414 /* vai_in_mona.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33651E214AEB00F37414 /* vai_in_mona.aiff */; };
+		9D8C33A01E214AEB00F37414 /* vedo_tutto_meno_quello_che_dovrei_vedere.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9D8C33661E214AEB00F37414 /* vedo_tutto_meno_quello_che_dovrei_vedere.aiff */; };
+		9D8C33A31E214B4900F37414 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8C33A21E214B4900F37414 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D8C33051E21053400F37414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D8C32E81E21053400F37414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8C32EF1E21053400F37414;
+			remoteInfo = Mosconi;
+		};
+		9D8C33101E21053400F37414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D8C32E81E21053400F37414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D8C32EF1E21053400F37414;
+			remoteInfo = Mosconi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D8C32F01E21053400F37414 /* Mosconi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mosconi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8C32F31E21053400F37414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D8C32F81E21053400F37414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D8C32FA1E21053400F37414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D8C32FD1E21053400F37414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D8C32FF1E21053400F37414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8C33041E21053400F37414 /* MosconiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosconiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8C33081E21053400F37414 /* MosconiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosconiTests.swift; sourceTree = "<group>"; };
+		9D8C330A1E21053400F37414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8C330F1E21053400F37414 /* MosconiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosconiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8C33131E21053400F37414 /* MosconiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosconiUITests.swift; sourceTree = "<group>"; };
+		9D8C33151E21053400F37414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8C33291E21128100F37414 /* CustomNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		9D8C332B1E211E4300F37414 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9D8C332D1E214AEB00F37414 /* ah_non_lo_so_io.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ah_non_lo_so_io.aiff; sourceTree = "<group>"; };
+		9D8C332E1E214AEB00F37414 /* avanti_e_n_drio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = avanti_e_n_drio.aiff; sourceTree = "<group>"; };
+		9D8C332F1E214AEB00F37414 /* avv_bisagno.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = avv_bisagno.aiff; sourceTree = "<group>"; };
+		9D8C33301E214AEB00F37414 /* carte_co_la_cola.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = carte_co_la_cola.aiff; sourceTree = "<group>"; };
+		9D8C33311E214AEB00F37414 /* chi_e_quel_mona.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = chi_e_quel_mona.aiff; sourceTree = "<group>"; };
+		9D8C33321E214AEB00F37414 /* chi_fa_quel_rumore_li.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = chi_fa_quel_rumore_li.aiff; sourceTree = "<group>"; };
+		9D8C33331E214AEB00F37414 /* chiudi_quella_porta.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = chiudi_quella_porta.aiff; sourceTree = "<group>"; };
+		9D8C33341E214AEB00F37414 /* come_se_ciama_elo_li.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = come_se_ciama_elo_li.aiff; sourceTree = "<group>"; };
+		9D8C33351E214AEB00F37414 /* cos_e_caduto.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = cos_e_caduto.aiff; sourceTree = "<group>"; };
+		9D8C33361E214AEB00F37414 /* cosa_ghe_qua_sotto.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = cosa_ghe_qua_sotto.aiff; sourceTree = "<group>"; };
+		9D8C33371E214AEB00F37414 /* d_p.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = d_p.aiff; sourceTree = "<group>"; };
+		9D8C33381E214AEB00F37414 /* dai_va_la.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dai_va_la.aiff; sourceTree = "<group>"; };
+		9D8C33391E214AEB00F37414 /* dio_bono_de_dio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_bono_de_dio.aiff; sourceTree = "<group>"; };
+		9D8C333A1E214AEB00F37414 /* dio_bubu.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_bubu.aiff; sourceTree = "<group>"; };
+		9D8C333B1E214AEB00F37414 /* dio_camaja_de_dio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_camaja_de_dio.aiff; sourceTree = "<group>"; };
+		9D8C333C1E214AEB00F37414 /* dio_cazzo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_cazzo.aiff; sourceTree = "<group>"; };
+		9D8C333D1E214AEB00F37414 /* dio_pa_pa_pa_pa.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_pa_pa_pa_pa.aiff; sourceTree = "<group>"; };
+		9D8C333E1E214AEB00F37414 /* dio_po_dio.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_po_dio.aiff; sourceTree = "<group>"; };
+		9D8C333F1E214AEB00F37414 /* dio_porco__dio_cane.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_porco__dio_cane.aiff; sourceTree = "<group>"; };
+		9D8C33401E214AEB00F37414 /* dio_ss.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dio_ss.aiff; sourceTree = "<group>"; };
+		9D8C33411E214AEB00F37414 /* e_con_questo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = e_con_questo.aiff; sourceTree = "<group>"; };
+		9D8C33421E214AEB00F37414 /* gabriele_sborina.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = gabriele_sborina.aiff; sourceTree = "<group>"; };
+		9D8C33431E214AEB00F37414 /* germano_e_il_telefono.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = germano_e_il_telefono.aiff; sourceTree = "<group>"; };
+		9D8C33441E214AEB00F37414 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		9D8C33451E214AEB00F37414 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		9D8C33461E214AEB00F37414 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		9D8C33471E214AEB00F37414 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		9D8C33481E214AEB00F37414 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		9D8C33491E214AEB00F37414 /* il_punteggio_dio_cane.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = il_punteggio_dio_cane.aiff; sourceTree = "<group>"; };
+		9D8C334A1E214AEB00F37414 /* in_primo_piano.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = in_primo_piano.aiff; sourceTree = "<group>"; };
+		9D8C334B1E214AEB00F37414 /* la_societa.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = la_societa.aiff; sourceTree = "<group>"; };
+		9D8C334C1E214AEB00F37414 /* ma_che_ooooh.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ma_che_ooooh.aiff; sourceTree = "<group>"; };
+		9D8C334D1E214AEB00F37414 /* ma_e_possibile_che_sia_cosi_degli_imbecilli.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = ma_e_possibile_che_sia_cosi_degli_imbecilli.aiff; sourceTree = "<group>"; };
+		9D8C334E1E214AEB00F37414 /* madonna_puttinaaaa.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = madonna_puttinaaaa.aiff; sourceTree = "<group>"; };
+		9D8C334F1E214AEB00F37414 /* madonna.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = madonna.aiff; sourceTree = "<group>"; };
+		9D8C33501E214AEB00F37414 /* no_nessuno.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = no_nessuno.aiff; sourceTree = "<group>"; };
+		9D8C33511E214AEB00F37414 /* no_no_vai_in_mona.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = no_no_vai_in_mona.aiff; sourceTree = "<group>"; };
+		9D8C33521E214AEB00F37414 /* non_e_possibile.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = non_e_possibile.aiff; sourceTree = "<group>"; };
+		9D8C33531E214AEB00F37414 /* non_si_puo_scrivere_ste_notizie_in_maiuscolo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = non_si_puo_scrivere_ste_notizie_in_maiuscolo.aiff; sourceTree = "<group>"; };
+		9D8C33541E214AEB00F37414 /* orco_dio_in_serie.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = orco_dio_in_serie.aiff; sourceTree = "<group>"; };
+		9D8C33551E214AEB00F37414 /* passar_davanti.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = passar_davanti.aiff; sourceTree = "<group>"; };
+		9D8C33561E214AEB00F37414 /* pilota_romano_romano_andrea_de_cesaris.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = pilota_romano_romano_andrea_de_cesaris.aiff; sourceTree = "<group>"; };
+		9D8C33571E214AEB00F37414 /* porca_madonna.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = porca_madonna.aiff; sourceTree = "<group>"; };
+		9D8C33581E214AEB00F37414 /* porco_dio_1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = porco_dio_1.aiff; sourceTree = "<group>"; };
+		9D8C33591E214AEB00F37414 /* porco_dio_2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = porco_dio_2.aiff; sourceTree = "<group>"; };
+		9D8C335A1E214AEB00F37414 /* portanna_la_madonna.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = portanna_la_madonna.aiff; sourceTree = "<group>"; };
+		9D8C335B1E214AEB00F37414 /* se_non_bestemmio_guarda.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = se_non_bestemmio_guarda.aiff; sourceTree = "<group>"; };
+		9D8C335C1E214AEB00F37414 /* se_trovo_quello_che_mi_fa_innervosire.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = se_trovo_quello_che_mi_fa_innervosire.aiff; sourceTree = "<group>"; };
+		9D8C335D1E214AEB00F37414 /* se_venite_avanti_vi_do_un_pugno.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = se_venite_avanti_vi_do_un_pugno.aiff; sourceTree = "<group>"; };
+		9D8C335E1E214AEB00F37414 /* serie_esplosiva.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = serie_esplosiva.aiff; sourceTree = "<group>"; };
+		9D8C335F1E214AEB00F37414 /* serrare_la_porta.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = serrare_la_porta.aiff; sourceTree = "<group>"; };
+		9D8C33601E214AEB00F37414 /* squadre.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = squadre.aiff; sourceTree = "<group>"; };
+		9D8C33611E214AEB00F37414 /* stronzi.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = stronzi.aiff; sourceTree = "<group>"; };
+		9D8C33621E214AEB00F37414 /* tutto_da_capo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tutto_da_capo.aiff; sourceTree = "<group>"; };
+		9D8C33631E214AEB00F37414 /* vaffanculo_ti_e_tutti_quanti.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vaffanculo_ti_e_tutti_quanti.aiff; sourceTree = "<group>"; };
+		9D8C33641E214AEB00F37414 /* vaffanculo.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vaffanculo.aiff; sourceTree = "<group>"; };
+		9D8C33651E214AEB00F37414 /* vai_in_mona.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vai_in_mona.aiff; sourceTree = "<group>"; };
+		9D8C33661E214AEB00F37414 /* vedo_tutto_meno_quello_che_dovrei_vedere.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = vedo_tutto_meno_quello_che_dovrei_vedere.aiff; sourceTree = "<group>"; };
+		9D8C33A21E214B4900F37414 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9D8C33A41E214B4900F37414 /* Mosconi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mosconi.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D8C32ED1E21053400F37414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8C33A31E214B4900F37414 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C33011E21053400F37414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C330C1E21053400F37414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D8C32E71E21053400F37414 = {
+			isa = PBXGroup;
+			children = (
+				9D8C332D1E214AEB00F37414 /* ah_non_lo_so_io.aiff */,
+				9D8C332E1E214AEB00F37414 /* avanti_e_n_drio.aiff */,
+				9D8C332F1E214AEB00F37414 /* avv_bisagno.aiff */,
+				9D8C33301E214AEB00F37414 /* carte_co_la_cola.aiff */,
+				9D8C33311E214AEB00F37414 /* chi_e_quel_mona.aiff */,
+				9D8C33321E214AEB00F37414 /* chi_fa_quel_rumore_li.aiff */,
+				9D8C33331E214AEB00F37414 /* chiudi_quella_porta.aiff */,
+				9D8C33341E214AEB00F37414 /* come_se_ciama_elo_li.aiff */,
+				9D8C33351E214AEB00F37414 /* cos_e_caduto.aiff */,
+				9D8C33361E214AEB00F37414 /* cosa_ghe_qua_sotto.aiff */,
+				9D8C33371E214AEB00F37414 /* d_p.aiff */,
+				9D8C33381E214AEB00F37414 /* dai_va_la.aiff */,
+				9D8C33391E214AEB00F37414 /* dio_bono_de_dio.aiff */,
+				9D8C333A1E214AEB00F37414 /* dio_bubu.aiff */,
+				9D8C333B1E214AEB00F37414 /* dio_camaja_de_dio.aiff */,
+				9D8C333C1E214AEB00F37414 /* dio_cazzo.aiff */,
+				9D8C333D1E214AEB00F37414 /* dio_pa_pa_pa_pa.aiff */,
+				9D8C333E1E214AEB00F37414 /* dio_po_dio.aiff */,
+				9D8C333F1E214AEB00F37414 /* dio_porco__dio_cane.aiff */,
+				9D8C33401E214AEB00F37414 /* dio_ss.aiff */,
+				9D8C33411E214AEB00F37414 /* e_con_questo.aiff */,
+				9D8C33421E214AEB00F37414 /* gabriele_sborina.aiff */,
+				9D8C33431E214AEB00F37414 /* germano_e_il_telefono.aiff */,
+				9D8C33441E214AEB00F37414 /* Icon-App-29x29@2x.png */,
+				9D8C33451E214AEB00F37414 /* Icon-App-29x29@3x.png */,
+				9D8C33461E214AEB00F37414 /* Icon-App-40x40@2x.png */,
+				9D8C33471E214AEB00F37414 /* Icon-App-60x60@2x.png */,
+				9D8C33481E214AEB00F37414 /* Icon-App-60x60@3x.png */,
+				9D8C33491E214AEB00F37414 /* il_punteggio_dio_cane.aiff */,
+				9D8C334A1E214AEB00F37414 /* in_primo_piano.aiff */,
+				9D8C334B1E214AEB00F37414 /* la_societa.aiff */,
+				9D8C334C1E214AEB00F37414 /* ma_che_ooooh.aiff */,
+				9D8C334D1E214AEB00F37414 /* ma_e_possibile_che_sia_cosi_degli_imbecilli.aiff */,
+				9D8C334E1E214AEB00F37414 /* madonna_puttinaaaa.aiff */,
+				9D8C334F1E214AEB00F37414 /* madonna.aiff */,
+				9D8C33501E214AEB00F37414 /* no_nessuno.aiff */,
+				9D8C33511E214AEB00F37414 /* no_no_vai_in_mona.aiff */,
+				9D8C33521E214AEB00F37414 /* non_e_possibile.aiff */,
+				9D8C33531E214AEB00F37414 /* non_si_puo_scrivere_ste_notizie_in_maiuscolo.aiff */,
+				9D8C33541E214AEB00F37414 /* orco_dio_in_serie.aiff */,
+				9D8C33551E214AEB00F37414 /* passar_davanti.aiff */,
+				9D8C33561E214AEB00F37414 /* pilota_romano_romano_andrea_de_cesaris.aiff */,
+				9D8C33571E214AEB00F37414 /* porca_madonna.aiff */,
+				9D8C33581E214AEB00F37414 /* porco_dio_1.aiff */,
+				9D8C33591E214AEB00F37414 /* porco_dio_2.aiff */,
+				9D8C335A1E214AEB00F37414 /* portanna_la_madonna.aiff */,
+				9D8C335B1E214AEB00F37414 /* se_non_bestemmio_guarda.aiff */,
+				9D8C335C1E214AEB00F37414 /* se_trovo_quello_che_mi_fa_innervosire.aiff */,
+				9D8C335D1E214AEB00F37414 /* se_venite_avanti_vi_do_un_pugno.aiff */,
+				9D8C335E1E214AEB00F37414 /* serie_esplosiva.aiff */,
+				9D8C335F1E214AEB00F37414 /* serrare_la_porta.aiff */,
+				9D8C33601E214AEB00F37414 /* squadre.aiff */,
+				9D8C33611E214AEB00F37414 /* stronzi.aiff */,
+				9D8C33621E214AEB00F37414 /* tutto_da_capo.aiff */,
+				9D8C33631E214AEB00F37414 /* vaffanculo_ti_e_tutti_quanti.aiff */,
+				9D8C33641E214AEB00F37414 /* vaffanculo.aiff */,
+				9D8C33651E214AEB00F37414 /* vai_in_mona.aiff */,
+				9D8C33661E214AEB00F37414 /* vedo_tutto_meno_quello_che_dovrei_vedere.aiff */,
+				9D8C32F21E21053400F37414 /* Mosconi */,
+				9D8C33071E21053400F37414 /* MosconiTests */,
+				9D8C33121E21053400F37414 /* MosconiUITests */,
+				9D8C32F11E21053400F37414 /* Products */,
+				9D8C33A11E214B4900F37414 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D8C32F11E21053400F37414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C32F01E21053400F37414 /* Mosconi.app */,
+				9D8C33041E21053400F37414 /* MosconiTests.xctest */,
+				9D8C330F1E21053400F37414 /* MosconiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D8C32F21E21053400F37414 /* Mosconi */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C33A41E214B4900F37414 /* Mosconi.entitlements */,
+				9D8C32F31E21053400F37414 /* AppDelegate.swift */,
+				9D8C332B1E211E4300F37414 /* CustomTableViewCell.swift */,
+				9D8C33291E21128100F37414 /* CustomNavBar.swift */,
+				9D8C32F71E21053400F37414 /* Main.storyboard */,
+				9D8C32FA1E21053400F37414 /* Assets.xcassets */,
+				9D8C32FC1E21053400F37414 /* LaunchScreen.storyboard */,
+				9D8C32FF1E21053400F37414 /* Info.plist */,
+			);
+			path = Mosconi;
+			sourceTree = "<group>";
+		};
+		9D8C33071E21053400F37414 /* MosconiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C33081E21053400F37414 /* MosconiTests.swift */,
+				9D8C330A1E21053400F37414 /* Info.plist */,
+			);
+			path = MosconiTests;
+			sourceTree = "<group>";
+		};
+		9D8C33121E21053400F37414 /* MosconiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C33131E21053400F37414 /* MosconiUITests.swift */,
+				9D8C33151E21053400F37414 /* Info.plist */,
+			);
+			path = MosconiUITests;
+			sourceTree = "<group>";
+		};
+		9D8C33A11E214B4900F37414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8C33A21E214B4900F37414 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D8C32EF1E21053400F37414 /* Mosconi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8C33181E21053400F37414 /* Build configuration list for PBXNativeTarget "Mosconi" */;
+			buildPhases = (
+				9D8C32EC1E21053400F37414 /* Sources */,
+				9D8C32ED1E21053400F37414 /* Frameworks */,
+				9D8C32EE1E21053400F37414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mosconi;
+			productName = Mosconi;
+			productReference = 9D8C32F01E21053400F37414 /* Mosconi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D8C33031E21053400F37414 /* MosconiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8C331B1E21053400F37414 /* Build configuration list for PBXNativeTarget "MosconiTests" */;
+			buildPhases = (
+				9D8C33001E21053400F37414 /* Sources */,
+				9D8C33011E21053400F37414 /* Frameworks */,
+				9D8C33021E21053400F37414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8C33061E21053400F37414 /* PBXTargetDependency */,
+			);
+			name = MosconiTests;
+			productName = MosconiTests;
+			productReference = 9D8C33041E21053400F37414 /* MosconiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D8C330E1E21053400F37414 /* MosconiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D8C331E1E21053400F37414 /* Build configuration list for PBXNativeTarget "MosconiUITests" */;
+			buildPhases = (
+				9D8C330B1E21053400F37414 /* Sources */,
+				9D8C330C1E21053400F37414 /* Frameworks */,
+				9D8C330D1E21053400F37414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8C33111E21053400F37414 /* PBXTargetDependency */,
+			);
+			name = MosconiUITests;
+			productName = MosconiUITests;
+			productReference = 9D8C330F1E21053400F37414 /* MosconiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D8C32E81E21053400F37414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Salvatore  Polito";
+				TargetAttributes = {
+					9D8C32EF1E21053400F37414 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AT2W83BFC8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					9D8C33031E21053400F37414 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AT2W83BFC8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D8C32EF1E21053400F37414;
+					};
+					9D8C330E1E21053400F37414 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = AT2W83BFC8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D8C32EF1E21053400F37414;
+					};
+				};
+			};
+			buildConfigurationList = 9D8C32EB1E21053400F37414 /* Build configuration list for PBXProject "Mosconi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D8C32E71E21053400F37414;
+			productRefGroup = 9D8C32F11E21053400F37414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D8C32EF1E21053400F37414 /* Mosconi */,
+				9D8C33031E21053400F37414 /* MosconiTests */,
+				9D8C330E1E21053400F37414 /* MosconiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D8C32EE1E21053400F37414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8C338A1E214AEB00F37414 /* no_nessuno.aiff in Resources */,
+				9D8C336E1E214AEB00F37414 /* come_se_ciama_elo_li.aiff in Resources */,
+				9D8C339C1E214AEB00F37414 /* tutto_da_capo.aiff in Resources */,
+				9D8C33801E214AEB00F37414 /* Icon-App-40x40@2x.png in Resources */,
+				9D8C33931E214AEB00F37414 /* porco_dio_2.aiff in Resources */,
+				9D8C339A1E214AEB00F37414 /* squadre.aiff in Resources */,
+				9D8C338D1E214AEB00F37414 /* non_si_puo_scrivere_ste_notizie_in_maiuscolo.aiff in Resources */,
+				9D8C33911E214AEB00F37414 /* porca_madonna.aiff in Resources */,
+				9D8C339D1E214AEB00F37414 /* vaffanculo_ti_e_tutti_quanti.aiff in Resources */,
+				9D8C337C1E214AEB00F37414 /* gabriele_sborina.aiff in Resources */,
+				9D8C33921E214AEB00F37414 /* porco_dio_1.aiff in Resources */,
+				9D8C33721E214AEB00F37414 /* dai_va_la.aiff in Resources */,
+				9D8C339E1E214AEB00F37414 /* vaffanculo.aiff in Resources */,
+				9D8C33951E214AEB00F37414 /* se_non_bestemmio_guarda.aiff in Resources */,
+				9D8C338C1E214AEB00F37414 /* non_e_possibile.aiff in Resources */,
+				9D8C336B1E214AEB00F37414 /* chi_e_quel_mona.aiff in Resources */,
+				9D8C32FE1E21053400F37414 /* LaunchScreen.storyboard in Resources */,
+				9D8C33811E214AEB00F37414 /* Icon-App-60x60@2x.png in Resources */,
+				9D8C33731E214AEB00F37414 /* dio_bono_de_dio.aiff in Resources */,
+				9D8C33711E214AEB00F37414 /* d_p.aiff in Resources */,
+				9D8C33691E214AEB00F37414 /* avv_bisagno.aiff in Resources */,
+				9D8C33981E214AEB00F37414 /* serie_esplosiva.aiff in Resources */,
+				9D8C33841E214AEB00F37414 /* in_primo_piano.aiff in Resources */,
+				9D8C33681E214AEB00F37414 /* avanti_e_n_drio.aiff in Resources */,
+				9D8C337F1E214AEB00F37414 /* Icon-App-29x29@3x.png in Resources */,
+				9D8C33761E214AEB00F37414 /* dio_cazzo.aiff in Resources */,
+				9D8C33821E214AEB00F37414 /* Icon-App-60x60@3x.png in Resources */,
+				9D8C337B1E214AEB00F37414 /* e_con_questo.aiff in Resources */,
+				9D8C339F1E214AEB00F37414 /* vai_in_mona.aiff in Resources */,
+				9D8C339B1E214AEB00F37414 /* stronzi.aiff in Resources */,
+				9D8C33891E214AEB00F37414 /* madonna.aiff in Resources */,
+				9D8C33A01E214AEB00F37414 /* vedo_tutto_meno_quello_che_dovrei_vedere.aiff in Resources */,
+				9D8C33871E214AEB00F37414 /* ma_e_possibile_che_sia_cosi_degli_imbecilli.aiff in Resources */,
+				9D8C33741E214AEB00F37414 /* dio_bubu.aiff in Resources */,
+				9D8C338E1E214AEB00F37414 /* orco_dio_in_serie.aiff in Resources */,
+				9D8C33851E214AEB00F37414 /* la_societa.aiff in Resources */,
+				9D8C337A1E214AEB00F37414 /* dio_ss.aiff in Resources */,
+				9D8C33991E214AEB00F37414 /* serrare_la_porta.aiff in Resources */,
+				9D8C33791E214AEB00F37414 /* dio_porco__dio_cane.aiff in Resources */,
+				9D8C33861E214AEB00F37414 /* ma_che_ooooh.aiff in Resources */,
+				9D8C33751E214AEB00F37414 /* dio_camaja_de_dio.aiff in Resources */,
+				9D8C33701E214AEB00F37414 /* cosa_ghe_qua_sotto.aiff in Resources */,
+				9D8C338B1E214AEB00F37414 /* no_no_vai_in_mona.aiff in Resources */,
+				9D8C337D1E214AEB00F37414 /* germano_e_il_telefono.aiff in Resources */,
+				9D8C33831E214AEB00F37414 /* il_punteggio_dio_cane.aiff in Resources */,
+				9D8C337E1E214AEB00F37414 /* Icon-App-29x29@2x.png in Resources */,
+				9D8C33771E214AEB00F37414 /* dio_pa_pa_pa_pa.aiff in Resources */,
+				9D8C33901E214AEB00F37414 /* pilota_romano_romano_andrea_de_cesaris.aiff in Resources */,
+				9D8C336F1E214AEB00F37414 /* cos_e_caduto.aiff in Resources */,
+				9D8C33961E214AEB00F37414 /* se_trovo_quello_che_mi_fa_innervosire.aiff in Resources */,
+				9D8C336C1E214AEB00F37414 /* chi_fa_quel_rumore_li.aiff in Resources */,
+				9D8C33781E214AEB00F37414 /* dio_po_dio.aiff in Resources */,
+				9D8C33671E214AEB00F37414 /* ah_non_lo_so_io.aiff in Resources */,
+				9D8C336D1E214AEB00F37414 /* chiudi_quella_porta.aiff in Resources */,
+				9D8C336A1E214AEB00F37414 /* carte_co_la_cola.aiff in Resources */,
+				9D8C32FB1E21053400F37414 /* Assets.xcassets in Resources */,
+				9D8C33881E214AEB00F37414 /* madonna_puttinaaaa.aiff in Resources */,
+				9D8C32F91E21053400F37414 /* Main.storyboard in Resources */,
+				9D8C338F1E214AEB00F37414 /* passar_davanti.aiff in Resources */,
+				9D8C33971E214AEB00F37414 /* se_venite_avanti_vi_do_un_pugno.aiff in Resources */,
+				9D8C33941E214AEB00F37414 /* portanna_la_madonna.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C33021E21053400F37414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C330D1E21053400F37414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D8C32EC1E21053400F37414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8C332C1E211E4300F37414 /* CustomTableViewCell.swift in Sources */,
+				9D8C332A1E21128100F37414 /* CustomNavBar.swift in Sources */,
+				9D8C32F41E21053400F37414 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C33001E21053400F37414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8C33091E21053400F37414 /* MosconiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8C330B1E21053400F37414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8C33141E21053400F37414 /* MosconiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D8C33061E21053400F37414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D8C32EF1E21053400F37414 /* Mosconi */;
+			targetProxy = 9D8C33051E21053400F37414 /* PBXContainerItemProxy */;
+		};
+		9D8C33111E21053400F37414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D8C32EF1E21053400F37414 /* Mosconi */;
+			targetProxy = 9D8C33101E21053400F37414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D8C32F71E21053400F37414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D8C32F81E21053400F37414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D8C32FC1E21053400F37414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D8C32FD1E21053400F37414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D8C33161E21053400F37414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D8C33171E21053400F37414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D8C33191E21053400F37414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mosconi/Mosconi.entitlements;
+				DEVELOPMENT_TEAM = AT2W83BFC8;
+				INFOPLIST_FILE = Mosconi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = salvatorepolito.Mosconi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D8C331A1E21053400F37414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mosconi/Mosconi.entitlements;
+				DEVELOPMENT_TEAM = AT2W83BFC8;
+				INFOPLIST_FILE = Mosconi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = salvatorepolito.Mosconi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9D8C331C1E21053400F37414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AT2W83BFC8;
+				INFOPLIST_FILE = MosconiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = salvatorepolito.MosconiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mosconi.app/Mosconi";
+			};
+			name = Debug;
+		};
+		9D8C331D1E21053400F37414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AT2W83BFC8;
+				INFOPLIST_FILE = MosconiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = salvatorepolito.MosconiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mosconi.app/Mosconi";
+			};
+			name = Release;
+		};
+		9D8C331F1E21053400F37414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AT2W83BFC8;
+				INFOPLIST_FILE = MosconiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = salvatorepolito.MosconiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mosconi;
+			};
+			name = Debug;
+		};
+		9D8C33201E21053400F37414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AT2W83BFC8;
+				INFOPLIST_FILE = MosconiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = salvatorepolito.MosconiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mosconi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D8C32EB1E21053400F37414 /* Build configuration list for PBXProject "Mosconi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8C33161E21053400F37414 /* Debug */,
+				9D8C33171E21053400F37414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D8C33181E21053400F37414 /* Build configuration list for PBXNativeTarget "Mosconi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8C33191E21053400F37414 /* Debug */,
+				9D8C331A1E21053400F37414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D8C331B1E21053400F37414 /* Build configuration list for PBXNativeTarget "MosconiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8C331C1E21053400F37414 /* Debug */,
+				9D8C331D1E21053400F37414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D8C331E1E21053400F37414 /* Build configuration list for PBXNativeTarget "MosconiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8C331F1E21053400F37414 /* Debug */,
+				9D8C33201E21053400F37414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D8C32E81E21053400F37414 /* Project object */;
+}
