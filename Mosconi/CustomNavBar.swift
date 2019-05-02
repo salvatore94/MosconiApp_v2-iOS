@@ -7,19 +7,25 @@
 //
 
 import UIKit
-//import SpriteKit
+import Lottie
 import MediaPlayer
 import AVFoundation
+
 
 class CustomNavBar: UITableViewController {
     @IBOutlet var myTableView: UITableView!
     
+    @IBOutlet weak var paButton: UINavigationItem!
+    
     @IBAction func pauseButton(_ sender: Any) {
         mp.stop()
+        animation?.play()
     }
     
     var mp = AVAudioPlayer()
     var nr = "ah_non_lo_so_io"
+    
+    let animation = LOTAnimationView(name: "pause")
     
     
     let nomi = ["Ah non lo so io","Avanti e n drio","Avv bisagno","Carte co la cola","Chi e quel mona","Chi fa quel rumore li","Come se ciama elo li","Cos'e caduto","Cosa ghe qua sotto","Dio porco","Dai va la","Dio bono de Dio","Dio bubu","Dio camaja de Dio","Dio cazzo","Dio pa pa pa pa","Dio po Dio","Dio porco  Dio cane","Dio ss","E con questo","Gabriele Sborina","Germano e il telefono","Il punteggio Dio cane","In primo piano","La societa","Ma che ooooh","Ma e possibile che sia cosi degli imbecilli","Madonna puttinaaaa","Madonna","No nessuno","No no vai in mona","Non e possibile","Non si puo scrivere ste notizie in maiuscolo","Orco Dio in serie","Passar davanti","Pilota romano romano Andrea DeCesaris","Porca Madonna","Porco Dio 1","Porco Dio 2","Portata la madonna","Se non bestemmio guarda","Se trovo quello che mi fa innervosire","Se venite avanti vi do un pugno","Serie esplosiva","Serrare la porta","Squadre","Stronzi","Tutto da capo","Vaffanculo ti e tutti quanti","Vaffanculo","Vai in mona","Vedo tutto meno quello che dovrei vedere"];
@@ -52,8 +58,11 @@ class CustomNavBar: UITableViewController {
         navigationItem.titleView = imageView
         //
         
+        
     }
-
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
